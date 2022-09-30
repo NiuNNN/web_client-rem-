@@ -1,0 +1,77 @@
+.lesson {
+  width: 100%;
+  height: 100%;
+  margin-top: 3.78666667rem;
+  overflow: scroll;
+  margin-bottom: 1.33333333rem;
+  background-color: #F2F4FB;
+  display: flex;
+  justify-content: space-between;
+}
+.lesson .left {
+  margin-top: 0.26666667rem;
+  width: 3.2rem;
+  height: 100%;
+  background-color: #fff;
+}
+.lesson .left ul li {
+  margin-left: 0.4rem;
+  margin-top: 0.53333333rem;
+}
+.lesson .left ul li a {
+  font-size: 0.37333333rem;
+  color: #333333;
+}
+.lesson .right {
+  width: 6.53333333rem;
+}
+.lesson .right .part {
+  margin-top: 0.26666667rem;
+}
+.lesson .right .part h2 {
+  margin-bottom: 0.2rem;
+  font-size: 0.32rem;
+  color: #888888;
+  font-weight: 400;
+}
+.lesson .right .part .part-detail {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 6.53333333rem;
+  height: 2.2rem;
+}
+.lesson .right .part .part-detail img {
+  align-self: center;
+  width: 2.73333333rem;
+  height: 1.66666667rem;
+}
+.lesson .right .part .part-detail div {
+  align-self: center;
+}
+.lesson .right .part .part-detail div h3 {
+  font-size: 0.37333333rem;
+  color: #333333;
+  font-weight: 400;
+}
+.lesson .right .part .part-detail div p {
+  margin: 0.13333333rem 0;
+  font-size: 0.32rem;
+  color: #888888;
+}
+.lesson .right .part .part-detail div a {
+  display: block;
+  width: 2.6rem;
+  height: 0.6rem;
+  font-size: 0.32rem;
+  text-align: center;
+  line-height: 0.6rem;
+  background-color: #EDF8FF;
+  color: #1C9FEA;
+}
+.lesson .right .part .line {
+  margin: 0 auto;
+  width: 6rem;
+  height: 1px;
+  background-color: #D9DCE6;
+}

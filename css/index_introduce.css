@@ -1,0 +1,189 @@
+.introduce {
+  width: 100%;
+  height: 100%;
+  margin-top: 3.78666667rem;
+  overflow: scroll;
+  margin-bottom: 1.33333333rem;
+  background-color: #F2F4FB;
+  padding-top: 0.26666667rem;
+}
+.introduce .lesson {
+  padding: 0.4rem;
+  background-color: #fff;
+}
+.introduce .lesson .lesson-top {
+  position: relative;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #D9DCE6;
+  background-color: #fff;
+}
+.introduce .lesson .lesson-top h3 {
+  font-size: 0.37333333rem;
+  color: #333333;
+}
+.introduce .lesson .lesson-top span {
+  display: block;
+  margin-top: 0.26666667rem;
+}
+.introduce .lesson .lesson-top span p {
+  float: left;
+  font-size: 0.32rem;
+  color: #888888;
+}
+.introduce .lesson .lesson-top span ul {
+  margin-left: 0.26666667rem;
+  float: left;
+  width: 2.13333333rem;
+  height: 0.29333333rem;
+  margin-bottom: 0.24rem;
+}
+.introduce .lesson .lesson-top span li {
+  float: left;
+  width: 0.32rem;
+  height: 0.29333333rem;
+  margin-right: 0.13333333rem;
+  background-image: url(../images/xingxing1.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.introduce .lesson .lesson-top span li.current {
+  background-image: url(../images/xingxing2.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.introduce .lesson .lesson-top span li:last-child {
+  margin: 0;
+}
+.introduce .lesson .lesson-top .shoucang {
+  position: absolute;
+  right: 0;
+  bottom: 0.24rem;
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+}
+.introduce .lesson .lesson-top .shoucang a {
+  display: block;
+  width: 0.82666667rem;
+  height: 0.82666667rem;
+  background-color: #FFF3F3;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.82666667rem;
+}
+.introduce .lesson .lesson-top .shoucang a img {
+  display: inline;
+  width: 0.44rem;
+  height: 0.4rem;
+  vertical-align: middle;
+}
+.introduce .lesson .lesson-top .shoucang p {
+  margin-top: 0.13333333rem;
+  font-size: 0.29333333rem;
+  color: #333333;
+}
+.introduce .lesson .lesson-middle {
+  width: 100%;
+  height: 1.73333333rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #D9DCE6;
+  background-color: #fff;
+}
+.introduce .lesson .lesson-middle div {
+  padding: 0 0.8rem;
+  text-align: center;
+  height: 0.93333333rem;
+}
+.introduce .lesson .lesson-middle div h3 {
+  font-size: 0.34666667rem;
+  color: #888888;
+  font-weight: 400;
+}
+.introduce .lesson .lesson-middle div p {
+  margin-top: 0.2rem;
+  font-size: 0.37333333rem;
+  color: #333333;
+}
+.introduce .lesson .lesson-middle div:nth-child(2) {
+  border-left: 1px solid #D9DCE6;
+  border-right: 1px solid #D9DCE6;
+}
+.introduce .lesson .lesson-bottom {
+  margin-top: 0.4rem;
+}
+.introduce .lesson .lesson-bottom h3 {
+  font-size: 0.34666667rem;
+  color: #333333;
+  font-weight: 500;
+}
+.introduce .lesson .lesson-bottom span {
+  margin: 0.4rem auto 0.26666667rem;
+  display: block;
+  width: 9.2rem;
+  height: 0.58666667rem;
+  border-radius: 0.29333333rem;
+  background-color: #FFF3F3;
+  line-height: 0.58666667rem;
+  text-align: center;
+  color: #F01513;
+}
+.introduce .lesson .lesson-bottom div {
+  margin-left: 1.73333333rem;
+}
+.introduce .lesson .lesson-bottom div p {
+  margin-top: 0.26666667rem;
+  font-size: 0.34666667rem;
+  color: #333333;
+}
+.introduce .lesson .lesson-bottom div p i {
+  margin-right: 0.2rem;
+}
+.introduce .lesson .lesson-bottom div p i img {
+  display: inline;
+  width: 0.34666667rem;
+  height: 0.34666667rem;
+  vertical-align: middle;
+}
+.introduce .introduce-lesson {
+  width: 100%;
+  margin-top: 0.26666667rem;
+  background-color: #fff;
+  overflow: scroll;
+}
+.introduce .introduce-lesson h3 {
+  display: block;
+  height: 1.17333333rem;
+  font-size: 0.37333333rem;
+  color: #333333;
+  padding-left: 0.4rem;
+  line-height: 1.17333333rem;
+  border-bottom: 1px solid #F5F5F5;
+}
+.introduce .introduce-lesson div {
+  width: 200%;
+  padding: 0.4rem 0;
+}
+.introduce .introduce-lesson div img {
+  margin-left: 0.29333333rem;
+  display: inline;
+  width: 2.08rem;
+  height: 1.25333333rem;
+}
+.introduce .business {
+  margin-top: 0.4rem;
+  background-color: #fff;
+  padding: 0.4rem;
+}
+.introduce .business h3 {
+  padding-left: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 0.37333333rem;
+  color: #333333;
+  border-bottom: 1px solid #F5F5F5;
+}
+.introduce .business p {
+  padding: 0.4rem;
+  font-size: 0.34666667rem;
+  color: #333333;
+  border-bottom: 1px solid #F5F5F5;
+}

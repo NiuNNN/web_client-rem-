@@ -1,0 +1,165 @@
+@rootSize:75rem;
+
+.report{
+  width: 100%;
+  height: 100%;
+  margin-top: (284/@rootSize);
+  overflow: scroll;
+  margin-bottom: (100/@rootSize);
+  .score{
+  background-color: #F2F4FB;
+  padding: (20/@rootSize) 0;
+  .content{
+    display: flex;
+    align-items: center;
+    height: (168/@rootSize);
+    background-color: #fff;
+    .left{
+      width: (248/@rootSize);
+      height: (120/@rootSize);
+      border-right: 1px solid #D9DCE6 ;
+      text-align: center;
+      h2{
+        margin-top: (15/@rootSize);
+        color: #FF9903;
+        font-size: (52/@rootSize);
+      }
+      p{
+        color: #333;
+        font-size: (28/@rootSize);
+      }
+    }
+    .right{
+      width: (380/@rootSize);
+      margin-left: 30px;
+      display: flex;
+      justify-content: space-between;
+      p{
+        font-size: (26/@rootSize);
+        color: #333333;
+        margin-bottom: (10/@rootSize);
+      }
+      .start{
+        ul{
+          width: (160/@rootSize);
+          height: (22/@rootSize);
+          margin-bottom: (18/@rootSize);
+        }
+        li{
+          float: left;
+          width: (24/@rootSize);
+          height: (22/@rootSize);
+          margin-right: (10/@rootSize);
+          background-image: url(../images/xingxing1.png);
+          background-size: (24/@rootSize) (22/@rootSize);
+          &.current{
+            background-image: url(../images/xingxing2.png);
+            background-size: (24/@rootSize) (22/@rootSize);
+          }
+        }
+        li:last-child{
+          margin: 0;
+        }
+      }
+      .num{
+        p{
+          color: #FF9903;
+        }
+      }
+    }
+  }
+  }
+  .choose{
+    border-bottom: 2px solid #F5F5F5;
+    a{
+      margin-left: (30/@rootSize);
+      height: (88/@rootSize);
+      display: inline-block;
+      font-size: (28/@rootSize);
+      color: #888888;
+      line-height: (88/@rootSize);
+      &.current{
+        color: #333333;
+      }
+    }
+  }
+  .report-detail{
+    span{
+      margin-left: (30/@rootSize);
+      margin-top: (30/@rootSize);
+      display: block;
+      width: (322/@rootSize);
+      height: (62/@rootSize);
+      background: #F9F9F9;
+      border-radius: (32/@rootSize);
+      font-size: (28/@rootSize);
+      color: #888888;
+      text-align: center;
+      line-height: (62/@rootSize);
+      i{
+        display: inline-block;
+        width: (32/@rootSize);
+        height: (32/@rootSize);
+        background-image: url(../images/对号.png);
+        background-size: (32/@rootSize) (32/@rootSize);
+        vertical-align: middle;
+      }
+    }
+    .part{
+      margin-top: (30/@rootSize);
+      border-bottom: 2px solid #F5F5F5;
+      padding: 0 (30/@rootSize) (30/@rootSize);
+      display: flex;
+      .avatar{
+        width: (115/@rootSize);
+        height: (64/@rootSize);
+        border-radius: 50%;
+        img{
+          width: (64/@rootSize);
+          height: (64/@rootSize);
+        }
+      }
+      .msg{
+        width: (635/@rootSize);
+        .user{
+          display: flex;
+          justify-content: space-between;
+          h3{
+            font-size: (32/@rootSize);
+            color: #333333;
+          }
+          ul{
+            width: (160/@rootSize);
+            height: (22/@rootSize);
+            margin-bottom: (18/@rootSize);
+          }
+          li{
+            float: left;
+            width: (24/@rootSize);
+            height: (22/@rootSize);
+            margin-right: (10/@rootSize);
+            background-image: url(../images/xingxing1.png);
+            background-size: (24/@rootSize) (22/@rootSize);
+            &.current{
+              background-image: url(../images/xingxing2.png);
+              background-size: (24/@rootSize) (22/@rootSize);
+            }
+          }
+          li:last-child{
+            margin: 0;
+          }
+        }
+        .time{
+          margin: (15/@rootSize) 0;
+          font-size: (24/@rootSize);
+          color: #999999;
+        }
+        .txt{
+          width: (605/@rootSize);
+          font-size: (26/@rootSize);
+          color: #666666;
+        }
+      }
+    }
+  }
+}

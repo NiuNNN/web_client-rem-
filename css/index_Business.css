@@ -1,0 +1,157 @@
+.report {
+  width: 100%;
+  height: 100%;
+  margin-top: 3.78666667rem;
+  overflow: scroll;
+  margin-bottom: 1.33333333rem;
+}
+.report .score {
+  background-color: #F2F4FB;
+  padding: 0.26666667rem 0;
+}
+.report .score .content {
+  display: flex;
+  align-items: center;
+  height: 2.24rem;
+  background-color: #fff;
+}
+.report .score .content .left {
+  width: 3.30666667rem;
+  height: 1.6rem;
+  border-right: 1px solid #D9DCE6;
+  text-align: center;
+}
+.report .score .content .left h2 {
+  margin-top: 0.2rem;
+  color: #FF9903;
+  font-size: 0.69333333rem;
+}
+.report .score .content .left p {
+  color: #333;
+  font-size: 0.37333333rem;
+}
+.report .score .content .right {
+  width: 5.06666667rem;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.report .score .content .right p {
+  font-size: 0.34666667rem;
+  color: #333333;
+  margin-bottom: 0.13333333rem;
+}
+.report .score .content .right .start ul {
+  width: 2.13333333rem;
+  height: 0.29333333rem;
+  margin-bottom: 0.24rem;
+}
+.report .score .content .right .start li {
+  float: left;
+  width: 0.32rem;
+  height: 0.29333333rem;
+  margin-right: 0.13333333rem;
+  background-image: url(../images/xingxing1.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.report .score .content .right .start li.current {
+  background-image: url(../images/xingxing2.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.report .score .content .right .start li:last-child {
+  margin: 0;
+}
+.report .score .content .right .num p {
+  color: #FF9903;
+}
+.report .choose {
+  border-bottom: 2px solid #F5F5F5;
+}
+.report .choose a {
+  margin-left: 0.4rem;
+  height: 1.17333333rem;
+  display: inline-block;
+  font-size: 0.37333333rem;
+  color: #888888;
+  line-height: 1.17333333rem;
+}
+.report .choose a.current {
+  color: #333333;
+}
+.report .report-detail span {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: block;
+  width: 4.29333333rem;
+  height: 0.82666667rem;
+  background: #F9F9F9;
+  border-radius: 0.42666667rem;
+  font-size: 0.37333333rem;
+  color: #888888;
+  text-align: center;
+  line-height: 0.82666667rem;
+}
+.report .report-detail span i {
+  display: inline-block;
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+  background-image: url(../images/对号.png);
+  background-size: 0.42666667rem 0.42666667rem;
+  vertical-align: middle;
+}
+.report .report-detail .part {
+  margin-top: 0.4rem;
+  border-bottom: 2px solid #F5F5F5;
+  padding: 0 0.4rem 0.4rem;
+  display: flex;
+}
+.report .report-detail .part .avatar {
+  width: 1.53333333rem;
+  height: 0.85333333rem;
+  border-radius: 50%;
+}
+.report .report-detail .part .avatar img {
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+}
+.report .report-detail .part .msg {
+  width: 8.46666667rem;
+}
+.report .report-detail .part .msg .user {
+  display: flex;
+  justify-content: space-between;
+}
+.report .report-detail .part .msg .user h3 {
+  font-size: 0.42666667rem;
+  color: #333333;
+}
+.report .report-detail .part .msg .user ul {
+  width: 2.13333333rem;
+  height: 0.29333333rem;
+  margin-bottom: 0.24rem;
+}
+.report .report-detail .part .msg .user li {
+  float: left;
+  width: 0.32rem;
+  height: 0.29333333rem;
+  margin-right: 0.13333333rem;
+  background-image: url(../images/xingxing1.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.report .report-detail .part .msg .user li.current {
+  background-image: url(../images/xingxing2.png);
+  background-size: 0.32rem 0.29333333rem;
+}
+.report .report-detail .part .msg .user li:last-child {
+  margin: 0;
+}
+.report .report-detail .part .msg .time {
+  margin: 0.2rem 0;
+  font-size: 0.32rem;
+  color: #999999;
+}
+.report .report-detail .part .msg .txt {
+  width: 8.06666667rem;
+  font-size: 0.34666667rem;
+  color: #666666;
+}

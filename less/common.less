@@ -1,0 +1,116 @@
+@import './base.less';
+@import './normalize.less';
+
+@rootSize:75rem;
+
+body{
+  width: (750/@rootSize);
+  // height: (1335/@rootSize);
+}
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+  .top{
+    display: flex;
+    justify-content: space-between;
+    padding: (30/@rootSize);
+    a{
+      img{
+        width: (206/@rootSize);
+        height: (70/@rootSize);
+        vertical-align: middle;
+      }
+    }
+    h1{
+      display: flex;
+      justify-content: space-between;
+      font-size: (32/@rootSize);
+      color: #333333;
+      img{
+        margin-left: (7/@rootSize);
+        width: (60/@rootSize);
+        height: (36/@rootSize);
+        vertical-align: middle;
+      }
+    }
+    p{
+      margin-top: (10/@rootSize);
+      display: flex;
+      font-size: (24/@rootSize);
+      color: #666666;
+      img{
+        width: (24/@rootSize);
+        height: (24/@rootSize);
+        vertical-align: middle;
+      }
+    }
+  }
+  .detail{
+    background-color: #F2F4FB;
+    height: (66/@rootSize);
+    span{
+      display: block;
+      width: (650/@rootSize);
+      margin: 0 auto;
+      line-height: (66/@rootSize);
+      font-size: (26/@rootSize);
+      color: #333333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      img{
+        margin-right: (10/@rootSize);
+        display: inline-block;
+        width: (43/@rootSize);
+        height: (26/@rootSize);
+        vertical-align: middle;
+      }
+    }
+  }
+  .choose{
+    display: flex;
+    justify-content: space-evenly;
+    height: (88/@rootSize);
+    align-items: center;
+    font-size: (28/@rootSize);
+    a{
+      color: #888888;
+      &.current{
+        color: #333333;
+      }
+    }
+  }
+}
+.footer{
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: (98/@rootSize);
+  a:first-child{
+    border: none;
+    background-color: #55B6ED;
+    img{
+      margin-top: (5/@rootSize);
+      margin-left: (60/@rootSize);
+      width: (255/@rootSize);
+      height: (88/@rootSize);
+    }
+  }
+  a{
+    flex: 1;
+    text-align: center;
+    line-height: (98/@rootSize);
+    font-size: (32/@rootSize);
+    color: #333333;
+    border-top: 1px solid #D9DCE6 ;
+    background-color: #fff;
+  }
+}
